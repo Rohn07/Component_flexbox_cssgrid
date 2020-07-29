@@ -1,0 +1,20 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: paleturquoise;
+    padding: 20px;
+    height: auto;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: rgb(177, 197, 62);
+    border: 5px solid violet;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-item:hover{
+    background-color:  paleturquoise;;
+}
